@@ -8,7 +8,7 @@ Steganography is the ability to hide another image, or other data that is a secr
 - Xojo API: API 2
 - Level: Advanced
 
-Code for this example is in the following methods: 1) HidePicture, and 2) RetrievePicture
+Code for this example is in the following methods: 1) HidePictureText, and 2) RetrieveText
 
 Screen Grab:
 
@@ -18,11 +18,11 @@ Instructions:
 
 Run the program in Xojo 2022 r1.1
 - Press the Load Original button and load 300bx300b-72dpi.png picture
-- Press the Load Secret button and load Secret75x75-72dpi.png picture
-- Press Create Blended Pic button to create and then save the steganographic picture
+- Press the Load Text button and load the text or type in text to be hidden
+- Press Create Blended Pic button to create and then save the steganographic picture-text
 
 - To decrypt the picture, run the RetrievePhoto program 
 - Press the Load Blended Pic button and load the BlendPic.PNG picture
-- Press the Retrieve Picture button to show and save the hiddlen picture
+- Press the Retrieve Text button to show and save the hidden text
 
-An article was written in xDev (xdevmag.com) Issue 20.4 (July/August 2022) and Issue 20.5 (Sept/Oct 2022) that describes the Xojo code. This is a great journey using pictures to hide and retrieve pictures using steganography.
+An article was written in xDev (xdevmag.com) Issue 21.1 (Jan/Feb 2023) and Issue 21.2 (Mar/Apr 2023) that describes the Xojo code. This is a great journey using pictures to hide and retrieve text using steganography.
